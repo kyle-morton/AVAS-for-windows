@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.8.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AVAS.Core\AVAS.Core.csproj" />
+  </ItemGroup>
+
 </Project>
